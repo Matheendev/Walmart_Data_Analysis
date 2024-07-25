@@ -1,12 +1,14 @@
-# Walmart_Data_Analysis
+# Exploratory Data Analysis (EDA) Walmart_Data_Analysis
 
 ## About
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized.
+This project involved a comprehensive Exploratory Data Analysis (EDA) of Walmart sales data using SQL. The primary focus was to extract valuable insights through data manipulation and analysis, addressing a range of business questions. To ensure data accuracy and consistency, rigorous data wrangling processes were implemented within the MySQL environment.
 
 ## Purposes Of The Project
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+The primary objective of this project was to gain practical experience in SQL query development by delving into Walmart's sales data.
+
+By conducting in-depth analysis, the project aimed to uncover key trends, patterns, and relationships within the data, including identifying top-performing branches and products, understanding sales patterns, and analyzing customer behavior. These insights can serve as a foundation for developing effective sales strategies and optimization initiatives.
 
 ## About Data
 
@@ -34,19 +36,16 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ## Revenue And Profit Calculations
 
-$ COGS = unitsPrice * quantity $
+COGS = unitsPrice * quantity 
 
-$ VAT = 5\% * COGS $
+VAT = 5\% * COGS
 
-$VAT$ is added to the $COGS$ and this is what is billed to the customer.
+VAT is added to the $COGS$ and this is what is billed to the customer.
 
-$ total(gross_sales) = VAT + COGS $
+total(gross_sales) = VAT + COGS 
 
-$ grossProfit(grossIncome) = total(gross_sales) - COGS $
+grossProfit(grossIncome) = total(gross_sales) - COGS
 
-**Gross Margin** is gross profit expressed in percentage of the total(gross profit/revenue)
+**Gross Margin:** It represents the portion of revenue remaining after deducting the cost of goods sold (COGS).
 
-$ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
-
->
-
+Gross Margin = gross profit / total revenue
